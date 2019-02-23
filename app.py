@@ -250,4 +250,4 @@ def update_figure2 (selected_country):
 
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(debug=True, host='0.0.0.0')
